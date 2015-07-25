@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Grids</title>
+	<meta name="description" content="Hello World">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <style>
+            .grey{
+                background-color: #000;
+                padding: 20px;
+            }
+        </style>
+
+</head>
+
+<body>
+
+	<header>
+		<div class="jumbotron">
+			<div class="container" align="center">
+				<h1>Grid Demonstration</h1>
+				<h3>This page is to demonstrate grid sytem in boorstrap</h3>
+			</div> 
+		</div> 
+	</header>
+    
+    <hr><hr><h4>Row demonstration starts</h4><hr><hr>
+    <div class="container">
+        <div class="row">
+            <div class="well">
+            This is my first Row
+            </div>
+        </div>
+        <div class="row">
+            <div class="well">
+            This is my Second Row
+            </div>
+        </div>
+        <div class="row">
+            <div class="well">
+            This is my Third Row
+            </div>
+        </div>
+    </div>
+    
+    <hr><hr><h4>Demonstration of row-column starts</h4><hr><hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="well">
+                    This is 1st row 1 column
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="well">
+                    This is 1st row 2 column
+                </div>
+            </div>
+             <div class="col-lg-4">
+                <div class="well">
+                    This is 1st row 3rd column
+                </div>
+            </div>
+        </div>
+    </div>
+            <hr><hr><h4>Demonstration of controlled row column starts </h4><hr><hr>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6 col-md-3">
+                        <div class="well">
+                            This is 1st row 1 column
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <div class="well">
+                            This is 1st row 2 column
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <div class="well">
+                            This is 1st row 3rd column
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <div class="well">
+                            This is 1st row 4th column
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr><hr><h4>Demonstration of Nested Column</h4><hr><hr>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="well">
+                            First column 
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="well">
+                                        First nested column
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="well">
+                                        Second nested column
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="well">
+                            second column
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+	
+        <footer>
+		<div class="container" align="center">
+                    <p><a href="http:\\www.facebook.com\aditya.singh923" target="_blank">Developed By Aditya Singh Chauhan</a></p>
+		</div> 
+        </footer>
+		
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>	
+</html>
