@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>
+function
+</title>
+<script language="javascript">
+function abc()
+{
+//alert("inside function")
+	
+	mydate = new Date()
+	h = mydate.getHours()
+	m = mydate.getMinutes()
+	s = mydate.getSeconds()
+document.f1.n1.value=h
+document.f1.n2.value=m
+document.f1.n3.value=s
+
+
+}
+window.setInterval("abc()",100)
+</script>
+</head>
+<body align="center">
+<form name="f1">
+number1: <input type="text" value="" name="n1">
+number1: <input type="text" value="" name="n2">
+number1: <input type="text" value="" name="n3">
+
+
+</form>
+</body>
+</html>
+
