@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Modal Demonstration</title>
+	<meta name="description" content="Modal Demonstration">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	
+
+</head>
+
+<body>
+
+	<header>
+		<div class="jumbotron">
+			<div class="container" align="center">
+				<h1> Modal Demonstration </h1>
+				<h3> This page is for the beginners demonstration Modals </h3>
+			</div> 
+		</div> 
+	</header>
+	
+	<div class="container">
+	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1">Click to trigger large Modal</button>
+		<div class="modal fade" id="modal1">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					 <div class="modal-header">
+					 	<button type="button" class="close" data-dismiss="modal">&times;</button>
+					 	<h3 class="modal-title">Welcome to the large modal</h3>
+					 </div>
+					 <div class="modal-body">
+                                             This is the body of the large modal.This is the body of the large modal.This is the body of the large modal.This is the body of the large modal.This is the body of the large modal.This is the body of the large modal.This is the body of the large modal.This is the body of the large modal.
+                                         </div>
+
+					 <div class="modal-footer">
+					 	<a href="" class="btn btn-default" data-dismiss="modal">Close</a>
+					 	<a href="" class="btn btn-primary">Continue</a>
+					 </div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <div class="container"><hr>
+	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal2">Click to trigger medium form Modal</button>
+		<div class="modal fade" id="modal2">
+			<div class="modal-dialog modal-md">
+				<div class="modal-content">
+					 <div class="modal-header">
+					 	<button type="button" class="close" data-dismiss="modal">&times;</button>
+					 	<h3 class="modal-title">Welcome to the medium form modal</h3>
+					 </div>
+					 <div class="modal-body">
+                                             <div class="container">
+                                                    <div class="container">
+                                                        <form action="" class="form-inline">
+                                                            <div class="form-group">
+                                                                <label for="name1" class="sr-only">Username</label>
+                                                                <input type="text" id="name1" class="form-control input-lg" placeholder="Enter Username">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="psw" class="sr-only">Password</label>
+                                                                <input type="password" id="psw" class="form-control input-lg" placeholder="Enter Password" >
+                                                            </div><br><br>
+                                                            <div class="checkbox">
+                                                                <label for=""><input type="checkbox">Remember me</label>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <button class="btn btn-primary">Log In</button>
+                                                            </div>
+
+                                                        </form>
+                                                    </div>
+                                             </div>
+                                         </div>
+
+					 <div class="modal-footer">
+					 	<a href="" class="btn btn-default" data-dismiss="modal">Close</a>
+					 	<a href="" class="btn btn-primary">Register</a>
+					 </div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <div class="container"><hr>
+	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal3">Click to trigger small Modal</button>
+		<div class="modal fade" id="modal3">
+			<div class="modal-dialog modal-sm">
+				<div class="modal-content">
+					 <div class="modal-header">
+					 	<button type="button" class="close" data-dismiss="modal">&times;</button>
+					 	<h3 class="modal-title">Welcome to small modal</h3>
+					 </div>
+					 <div class="modal-body">
+                                             This is body of small modal. This is body of small modal. This is body of small modal. This is body of small modal. This is body of small modal. 
+                                         </div>
+
+					 <div class="modal-footer">
+					 	<a href="" class="btn btn-default" data-dismiss="modal">Close</a>
+					 	<a href="" class="btn btn-primary">Continue</a>
+					 </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<footer>
+		<div class="container" align="center">
+                    <p><a href="http:\\www.facebook.com\aditya.singh923" target="_blank">Developed By Aditya Singh Chauhan</a></p>
+		</div> 
+        </footer>
+		
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>	
+</html>
